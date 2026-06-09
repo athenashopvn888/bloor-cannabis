@@ -128,7 +128,7 @@ export default function PostContent() {
 
         <div className={styles.cta}>
           <p>
-            <strong>Bloor Cannabis Dispensary</strong> — 993 Bloor St W, Toronto · Open 24 Hours · (437) 223-9353
+            <strong>Bloor Cannabis Dispensary</strong> — 993 Bloor St W, Toronto · Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM · (437) 223-9353
           </p>
           <Link href="/exotic" className={styles.ctaBtn}>Browse Our Menu</Link>
         </div>

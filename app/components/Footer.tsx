@@ -14,7 +14,7 @@ export default function Footer() {
             <p className={styles.desc}>
               Your Local Cannabis Dispensary At 993 Bloor St W, Toronto. Visit
               Bloor Cannabis Dispensary For Premium Flower, Edibles, Vapes &amp; More.
-              Open 24 Hours.
+              Open: Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM.
             </p>
             <div className={styles.buttons}>
               <a
@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
             <div className={styles.infoBlock}>
               <span className={styles.infoLabel}>Hours:</span>
-              <span className={styles.highlight}>Open 24 Hours</span>
+              <span className={styles.highlight}>Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM</span>
             </div>
           </div>
 
