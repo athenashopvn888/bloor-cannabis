@@ -673,7 +673,7 @@ function AddOnsCard({ items, hiIdx }: { items: Item[]; hiIdx: number }) {
 const TICKER_SLIDES = [
   "🔥 Bloor Cannabis Dispensary — 993 Bloor St W, Toronto",
   "200+ Strains In Stock",
-  "Open 24 Hours",
+  "Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM",
   "ALL SALES ARE FINAL",
   "🎮 Play Games at bloorcanabisdispensary.com/games",
 ];

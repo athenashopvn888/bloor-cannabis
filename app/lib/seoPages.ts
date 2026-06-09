@@ -8,23 +8,22 @@ export interface SeoPageData {
   icon: string;
   heroTagline: string;
   banner?: string;
-  sections: { heading: string; body: string }[];
   faqs: { q: string; a: string }[];
 }
 
 export const SEO_PAGES: SeoPageData[] = [
   {
     slug: "york-weed-dispensary",
-    title: "Toronto Weed Dispensary — Bloor Cannabis Dispensary | 24 Hours | 993 Bloor St W & Nearby Expressway",
-    metaDescription: "Bloor Cannabis Dispensary is Toronto's #1 24-hour weed dispensary at 993 Bloor St W near Weston. 200+ strains, THC up to 39%, edibles, vapes, concentrates & more. Walk in anytime.",
+    title: "Toronto Weed Dispensary — Bloor Cannabis Dispensary | Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM | 993 Bloor St W & Nearby Expressway",
+    metaDescription: "Bloor Cannabis Dispensary is Toronto's premier weed dispensary at 993 Bloor St W near Weston. 200+ strains, THC up to 39%, edibles, vapes, concentrates & more. We are open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM.",
     h1: "Toronto Weed Dispensary — Bloor Cannabis Dispensary",
     icon: "✨",
-    heroTagline: "Premium Cannabis on 993 Bloor St W & Nearby Expressway · Open 24 Hours · Walk-In Welcome",
+    heroTagline: "Premium Cannabis on 993 Bloor St W & Nearby Expressway · Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM · Walk-In Welcome",
     banner: "",
     sections: [
       {
         heading: "Toronto's Premier Cannabis Destination",
-        body: "Bloor Cannabis Dispensary is a premium cannabis dispensary located at 993 Bloor St W in the heart of Toronto's vibrant 993 Bloor St W & Nearby Expressway area. We carry over 200 hand-picked cannabis strains across five quality tiers — from ultra-rare Exotic genetics with THC up to 39% to affordable Budget flower starting at just $3/g. Whether you're a connoisseur seeking the rarest strains or a daily smoker looking for reliable value, Bloor Cannabis Dispensary has the perfect flower for you. We're proud to be one of Toronto's most trusted dispensaries, serving our community 24 hours a day, 7 days a week.",
+        body: "Bloor Cannabis Dispensary is a premium cannabis dispensary located at 993 Bloor St W in the heart of Toronto's vibrant 993 Bloor St W & Nearby Expressway area. We carry over 200 hand-picked cannabis strains across five quality tiers — from ultra-rare Exotic genetics with THC up to 39% to affordable Budget flower starting at just $3/g. Whether you're a connoisseur seeking the rarest strains or a daily smoker looking for reliable value, Bloor Cannabis Dispensary has the perfect flower for you. We're proud to be one of Toronto's most trusted dispensaries, and we are Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM.",
       },
       {
         heading: "Five Tiers of Quality Cannabis — Transparent Pricing",
@@ -35,8 +34,8 @@ export const SEO_PAGES: SeoPageData[] = [
         body: "Bloor Cannabis Dispensary is more than just a flower shop. We carry a comprehensive selection of cannabis edibles (gummies, chocolates, baked goods), vape pens and disposable vapes, concentrates (shatter, wax, hash, diamonds, live resin), pre-rolled joints, magic mushrooms, native cigarettes, rolling papers, and accessories. Our live digital menu at bloorcanabisdispensary.com updates in real time so you always know exactly what's in stock before you make the trip.",
       },
       {
-        heading: "Open 24 Hours on 993 Bloor St W & Nearby Expressway",
-        body: "Unlike most dispensaries that close at midnight, Bloor Cannabis Dispensary is open around the clock — 24 hours a day, 7 days a week, 365 days a year. Whether you're finishing a late shift, heading out for the night, or need something at 3 AM, our doors are always open. We're centrally located at 993 Bloor St W, near major transit bus routes, close to major highways and central stations. Free street parking is available near the dispensary.",
+        heading: "Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM on 993 Bloor St W & Nearby Expressway",
+        body: "At Bloor Cannabis Dispensary, we make it convenient for you. We are Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM, 365 days a year. Whether you're finishing a late shift, heading out for the night, or need an early morning pickup, we are ready to serve you. We're centrally located at 993 Bloor St W, near major transit bus routes, close to major highways and central stations. Free street parking is available near the dispensary.",
       },
       {
         heading: "Unbeatable Promotions on Every Purchase",
@@ -44,16 +43,16 @@ export const SEO_PAGES: SeoPageData[] = [
       },
       {
         heading: "Serving Toronto, Toronto & Mississauga",
-        body: "Bloor Cannabis Dispensary proudly serves customers from across the Greater Toronto Area. Whether you're coming from Weston, Mount Dennis, North Toronto, Etobicoke, Mississauga, Brampton, or downtown Toronto, we welcome you. Our 24-hour operation means you can visit on your own schedule. Call us at (437) 223-9353 or visit us at 993 Bloor St W, Toronto, ON M6H 1M1.",
+        body: "Bloor Cannabis Dispensary proudly serves customers from across the Greater Toronto Area. Whether you're coming from Weston, Mount Dennis, North Toronto, Etobicoke, Mississauga, Brampton, or downtown Toronto, we welcome you. Call us at (437) 223-9353 or visit us at 993 Bloor St W, Toronto, ON M6H 1M1.",
       },
     ],
     faqs: [
       { q: "Where is Bloor Cannabis Dispensary located?", a: "We are located at 993 Bloor St W, Toronto, ON M6H 1M1 — in the heart of 993 Bloor St W & Nearby Expressway area — one of Toronto's most accessible areas. We're near major transit bus routes and close to major highways." },
-      { q: "What are the hours for Bloor Cannabis Dispensary?", a: "We are open 24 hours a day, 7 days a week, 365 days a year. Walk in anytime — no appointment needed. Whether it's 2 PM or 2 AM, our staff is here to help." },
+      { q: "What are the hours for Bloor Cannabis Dispensary?", a: "We are open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM. Walk in anytime — no appointment needed. Whether it's day or night, our staff is here to help." },
       { q: "What cannabis products does Bloor Cannabis Dispensary carry?", a: "We carry 200+ strains of cannabis flower across 5 quality tiers (Exotic, Premium, AAA+, AA, Budget), plus edibles, vapes, concentrates, pre-rolls, magic mushrooms, native cigarettes, and accessories. Our menu updates in real time online." },
       { q: "What is the cheapest weed at Bloor Cannabis Dispensary?", a: "Our Budget tier starts at $3/g with value ounces from $40. Our AA tier is $4/g. Every tier includes our Buy 2g Get 1g FREE promotion, making our prices even more competitive." },
       { q: "Does Bloor Cannabis Dispensary have a live menu?", a: "Yes! Our online menu at bloorcanabisdispensary.com updates in real time with current stock, prices, and availability. You can see exactly what we have before you visit." },
-      { q: "What makes Bloor Cannabis Dispensary different from other Toronto dispensaries?", a: "Three things set us apart: (1) We're open 24 hours, (2) our transparent 5-tier pricing system means no confusing markups, and (3) every purchase includes our Buy 2g Get 1g FREE promotion. Plus we carry one of Toronto's largest selections with over 200 strains." },
+      { q: "What makes Bloor Cannabis Dispensary different from other Toronto dispensaries?", a: "Three things set us apart: (1) we are open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM, (2) our transparent 5-tier pricing system means no confusing markups, and (3) every purchase includes our Buy 2g Get 1g FREE promotion. Plus we carry one of Toronto's largest selections with over 200 strains." },
       { q: "Can I check stock before visiting?", a: "Absolutely. Visit bloorcanabisdispensary.com to see our live menu. All flower, edibles, vapes, and accessories are listed with real-time stock status, THC levels, and pricing." },
       { q: "Is there parking near Bloor Cannabis Dispensary?", a: "Yes. Free street parking is available nearby and surrounding residential streets. We're also easily accessible via local transit." },
     ],
@@ -62,10 +61,10 @@ export const SEO_PAGES: SeoPageData[] = [
   {
     slug: "cheap-weed-york",
     title: "Cheap Weed Toronto — Budget Cannabis Deals From $3/g | Bloor Cannabis Dispensary",
-    metaDescription: "Looking for cheap weed in Toronto? Bloor Cannabis Dispensary has budget flower from $3/g, ounces from $40, and Buy 2g Get 1g FREE promos. Open 24 hours at 993 Bloor St W.",
+    metaDescription: "Looking for cheap weed in Toronto? Bloor Cannabis Dispensary has budget flower from $3/g, ounces from $40, and Buy 2g Get 1g FREE promos. We are Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM at 993 Bloor St W.",
     h1: "Cheap Weed Toronto — Budget Cannabis Deals",
     icon: "💰",
-    heroTagline: "Budget Flower From $3/g · Ounces From $40 · Always Open",
+    heroTagline: "Budget Flower From $3/g · Ounces From $40 · Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM",
     banner: "",
     sections: [
       {
@@ -89,7 +88,7 @@ export const SEO_PAGES: SeoPageData[] = [
       { q: "What is the cheapest weed at Bloor Cannabis Dispensary?", a: "Our Budget tier starts at $3/g with value ounces from $40. These are quality, properly-cured strains at Toronto's most competitive prices." },
       { q: "Do you have ounce deals?", a: "Yes! Budget ounces from $40, AA ounces from $90, AAA+ ounces from $100. All with excellent quality, freshness guaranteed, and Buy 2g Get 1g FREE promotions on top." },
       { q: "Is cheap weed still good quality?", a: "Absolutely. Our Budget flower delivers THC 24-27% from trusted Canadian growers. We never sell old, dry, or improperly stored flower. Every product meets our quality standards regardless of price point." },
-      { q: "Where can I buy cheap weed in Toronto?", a: "Bloor Cannabis Dispensary at 993 Bloor St W, Toronto. Open 24 hours a day, walk in anytime, no appointment needed. We're in the heart of 993 Bloor St W & Nearby Expressway area." },
+      { q: "Where can I buy cheap weed in Toronto?", a: "Bloor Cannabis Dispensary at 993 Bloor St W, Toronto. We are open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM, walk in anytime, no appointment needed. We're in the heart of 993 Bloor St W & Nearby Expressway area." },
       { q: "What promotions do you offer?", a: "Every tier includes Buy 2g Get 1g FREE (pay for 2g, get 3g). Our Exotic, Premium, and AAA+ tiers also offer Buy 3g Get 3g FREE (pay for 3g, get 6g). These promos apply on every visit." },
       { q: "Do you offer bulk discounts?", a: "Yes — our ounce pricing is deeply discounted compared to per-gram rates. Budget ounces are $40, AA ounces $90, and AAA+ ounces $100. The more you buy, the more you save." },
     ],
@@ -98,10 +97,10 @@ export const SEO_PAGES: SeoPageData[] = [
   {
     slug: "native-cigarettes-york",
     title: "Native Cigarettes Toronto — Discount Tobacco | Bloor Cannabis Dispensary",
-    metaDescription: "Buy native cigarettes in Toronto at Bloor Cannabis Dispensary. Wide selection of premium and value tobacco brands at the best prices. 993 Bloor St W, 993 Bloor St W & Nearby Expressway. Open 24/7.",
+    metaDescription: "Buy native cigarettes in Toronto at Bloor Cannabis Dispensary. Wide selection of premium and value tobacco brands at the best prices. 993 Bloor St W, 993 Bloor St W & Nearby Expressway. We are Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM.",
     h1: "Native Cigarettes Toronto — Discount Tobacco",
     icon: "🏷️",
-    heroTagline: "Premium & Value Brands · Best Prices in Toronto · Open 24 Hours",
+    heroTagline: "Premium & Value Brands · Best Prices in Toronto · Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM",
     banner: "",
     sections: [
       {
@@ -110,7 +109,7 @@ export const SEO_PAGES: SeoPageData[] = [
       },
       {
         heading: "Why Toronto Smokers Choose Bloor Cannabis Dispensary",
-        body: "There are three reasons Toronto smokers keep coming back to Bloor Cannabis Dispensary for their cigarettes. First, our prices are among the lowest in the 993 Bloor St W & Nearby Expressway area — we buy in volume and pass the savings to our customers. Second, our selection is comprehensive — we carry brands and varieties that many other shops simply don't stock. Third, we're open 24 hours a day, 7 days a week. Need cigarettes at midnight? 3 AM? We're here. No other tobacco shop in Toronto offers this level of convenience.",
+        body: "There are three reasons Toronto smokers keep coming back to Bloor Cannabis Dispensary for their cigarettes. First, our prices are among the lowest in the 993 Bloor St W & Nearby Expressway area — we buy in volume and pass the savings to our customers. Second, our selection is comprehensive — we carry brands and varieties that many other shops simply don't stock. Third, we are open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM. Need cigarettes? Stop by during our hours: Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM. No other tobacco shop in Toronto offers this level of convenience.",
       },
       {
         heading: "Convenient 993 Bloor St W & Nearby Expressway Location",
@@ -124,8 +123,8 @@ export const SEO_PAGES: SeoPageData[] = [
     faqs: [
       { q: "Does Bloor Cannabis Dispensary sell native cigarettes?", a: "Yes! We carry one of the widest selections of native cigarettes in Toronto, including premium brands, value brands, full-flavour, light, and menthol varieties." },
       { q: "What cigarette brands do you carry?", a: "We stock a comprehensive range of native cigarette brands in multiple varieties. Our selection rotates regularly. Visit us at 993 Bloor St W to see our full current inventory and pricing." },
-      { q: "Where can I buy cheap cigarettes in Toronto?", a: "Bloor Cannabis Dispensary at 993 Bloor St W offers some of the best cigarette prices in Toronto's Weston area. We're open 24 hours so you can shop on your own schedule." },
-      { q: "Are you open late for cigarette purchases?", a: "We're open 24 hours a day, 7 days a week. Whether you need cigarettes at noon or 3 AM, our doors are always open." },
+      { q: "Where can I buy cheap cigarettes in Toronto?", a: "Bloor Cannabis Dispensary at 993 Bloor St W offers some of the best cigarette prices in Toronto's Weston area. We are open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM so you can shop on your own schedule." },
+      { q: "Are you open late for cigarette purchases?", a: "We are open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM. Whether you need cigarettes at noon or late at night, our doors are open." },
       { q: "Can I buy cigarettes and cannabis at Bloor Cannabis Dispensary?", a: "Absolutely. Bloor Cannabis Dispensary is both a fully-licensed cannabis dispensary and a tobacco retailer. Many customers appreciate the convenience of one stop for both products." },
       { q: "Where is Bloor Cannabis Dispensary located?", a: "993 Bloor St W, Toronto, ON M6H 1M1 — in 993 Bloor St W & Nearby Expressway area. Near transit routes with free street parking available." },
     ],
@@ -134,10 +133,10 @@ export const SEO_PAGES: SeoPageData[] = [
   {
     slug: "weed-store-near-toronto",
     title: "Weed Store Near Toronto — Bloor Cannabis Dispensary",
-    metaDescription: "Looking for a weed store near Toronto? Bloor Cannabis Dispensary at 993 Bloor St W, Toronto is just minutes away via major highways. 200+ strains, open 24 hours.",
+    metaDescription: "Looking for a weed store near Toronto? Bloor Cannabis Dispensary at 993 Bloor St W, Toronto is just minutes away via major highways. 200+ strains, we are Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM.",
     h1: "Weed Store Near Toronto — Bloor Cannabis Dispensary",
     icon: "🚗",
-    heroTagline: "Just Minutes From Mississauga via major highways · Open 24 Hours",
+    heroTagline: "Just Minutes From Mississauga via major highways · Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM",
     banner: "",
     sections: [
       {
@@ -149,8 +148,8 @@ export const SEO_PAGES: SeoPageData[] = [
         body: "Bloor Cannabis Dispensary offers a wider selection and more competitive pricing than most local Peel options. You'll find over 200 strains across five quality tiers — from ultra-rare Exotic genetics (THC 35-39%) to affordable Budget flower at just $3/g. Our Buy 2g Get 1g FREE promotion applies to every tier, and our top three tiers offer Buy 3g Get 3g FREE. With prices starting at $3/g and ounces from $40, Bloor Cannabis Dispensary delivers value that's worth the short drive from Toronto.",
       },
       {
-        heading: "Open 24 Hours — Perfect for Late Night Visits",
-        body: "Unlike most dispensaries in Peel Region with limited hours, Bloor Cannabis Dispensary is open 24 hours a day, 7 days a week. Whether you're heading home from a late shift in Mississauga, going out for the night, or just need a quick pickup after hours, you can stop by Bloor Cannabis Dispensary anytime. Early morning, late night, weekends, holidays — we're always here.",
+        heading: "Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM — Perfect for Late Night Visits",
+        body: "Unlike most dispensaries in Peel Region with limited hours, Bloor Cannabis Dispensary is open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM. Whether you're heading home from a late shift, going out for the night, or just need a quick pickup, you can stop by Bloor Cannabis Dispensary during our hours: Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM. Early morning, late night, weekends, holidays — we are always here.",
       },
       {
         heading: "Directions From Toronto",
@@ -164,7 +163,7 @@ export const SEO_PAGES: SeoPageData[] = [
     faqs: [
       { q: "How far is Bloor Cannabis Dispensary from Mississauga?", a: "We're located at 993 Bloor St W in Toronto — just a 15-20 minute drive from central Mississauga via Highway 401 East." },
       { q: "Is it worth driving from Mississauga for cannabis?", a: "Absolutely. Bloor Cannabis Dispensary offers 200+ strains, prices starting at $3/g, and promotions like Buy 2g Get 1g FREE that make the short drive incredibly worthwhile." },
-      { q: "Is Bloor Cannabis Dispensary open late?", a: "We're open 24 hours a day, 7 days a week. Whether you're driving up from Mississauga at noon or midnight, we're open and ready to serve you." },
+      { q: "Is Bloor Cannabis Dispensary open late?", a: "We are open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM. Whether you're driving up at noon or late at night, we are open and ready to serve you." },
       { q: "What's the cheapest weed near Toronto?", a: "Bloor Cannabis Dispensary has Budget flower from $3/g and value ounces from $40. With our Buy 2g Get 1g FREE promo, these are some of the best prices in the Greater Toronto Area." },
       { q: "Is there parking at Bloor Cannabis Dispensary?", a: "Yes. Free evening street parking is available near the store and surrounding residential streets." },
       { q: "Can I take transit from Toronto to Bloor Cannabis Dispensary?", a: "Yes! Local transit connects directly subway and bus routes that will drop you off right near our location." },
@@ -174,11 +173,11 @@ export const SEO_PAGES: SeoPageData[] = [
 
   {
     slug: "dispensary-near-me-york",
-    title: "Cannabis Dispensary Near Me Toronto — Bloor Cannabis Dispensary | Open 24 Hours",
-    metaDescription: "Find a cannabis dispensary near you in Toronto. Bloor Cannabis Dispensary at 993 Bloor St W has 200+ strains from $3/g. Open 24 hours. Walk in anytime, no appointment needed.",
+    title: "Cannabis Dispensary Near Me Toronto — Bloor Cannabis Dispensary | Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM",
+    metaDescription: "Find a cannabis dispensary near you in Toronto. Bloor Cannabis Dispensary at 993 Bloor St W has 200+ strains from $3/g. We are Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM. Walk in anytime, no appointment needed.",
     h1: "Cannabis Dispensary Near Me — Toronto",
     icon: "🗺️",
-    heroTagline: "Walk-In Welcome · Open 24 Hours · 200+ Strains In Stock",
+    heroTagline: "Walk-In Welcome · Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM · 200+ Strains In Stock",
     banner: "",
     sections: [
       {
@@ -187,7 +186,7 @@ export const SEO_PAGES: SeoPageData[] = [
       },
       {
         heading: "Why Choose Bloor Cannabis Dispensary Over Other Dispensaries?",
-        body: "What sets Bloor Cannabis Dispensary apart from other Toronto dispensaries is our combination of selection, pricing, and convenience. We carry 200+ strains across five clear quality tiers — no confusing markups, no inconsistent pricing. Our Buy 2g Get 1g FREE promotion applies to every tier, every purchase. And unlike most dispensaries that close at midnight, we're open 24 hours a day, 7 days a week. Whether you need flower, edibles, vapes, or concentrates at any hour, Bloor Cannabis Dispensary is here.",
+        body: "What sets Bloor Cannabis Dispensary apart from other Toronto dispensaries is our combination of selection, pricing, and convenience. We carry 200+ strains across five clear quality tiers — no confusing markups, no inconsistent pricing. Our Buy 2g Get 1g FREE promotion applies to every tier, every purchase. And unlike most dispensaries that close early, we are open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM. Whether you need flower, edibles, vapes, or concentrates, Bloor Cannabis Dispensary is here.",
       },
       {
         heading: "Areas We Serve in Greater Toronto Area",
@@ -196,7 +195,7 @@ export const SEO_PAGES: SeoPageData[] = [
     ],
     faqs: [
       { q: "Where is the closest dispensary in 993 Bloor St W & Nearby Expressway?", a: "Bloor Cannabis Dispensary at 993 Bloor St W is conveniently located in the heart of Toronto — easily accessible from 993 Bloor St W & Nearby Expressway." },
-      { q: "Is Bloor Cannabis Dispensary walk-in friendly?", a: "Absolutely! No appointment needed. Walk in anytime — we're open 24 hours a day, 7 days a week. Our friendly staff is always ready to help." },
+      { q: "Is Bloor Cannabis Dispensary walk-in friendly?", a: "Absolutely! No appointment needed. Walk in anytime during our hours — we are open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM. Our friendly staff is always ready to help." },
       { q: "What neighbourhoods does Bloor Cannabis Dispensary serve?", a: "We serve all of Toronto and surrounding areas, including 993 Bloor St W & Nearby Expressway and surrounding areas." },
       { q: "How do I check what's in stock?", a: "Visit bloorcanabisdispensary.com for our live menu with real-time stock, pricing, and THC levels for all products." },
       { q: "Do you sell edibles and vapes?", a: "Yes! In addition to 200+ flower strains, we carry edibles (gummies, chocolates), vape pens, disposable vapes, concentrates, pre-rolls, and accessories." },

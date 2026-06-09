@@ -101,7 +101,7 @@ export default function DeliveryContent() {
         <div className={styles.ctaSection}>
           <p className={styles.ctaText}>
             Can&apos;t wait? Visit us in-store at <strong>993 Bloor St W, Toronto</strong> —
-            open <strong>24 hours</strong>. Call <strong>(437) 223-9353</strong>.
+            we are <strong>Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM</strong>. Call <strong>(437) 223-9353</strong>.
           </p>
         </div>
       </div>

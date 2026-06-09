@@ -162,11 +162,11 @@ export const CATEGORY_CONFIG: Record<string, CategoryInfo> = {
     name: "Edibles", slug: "edibles", color: "#f97316", icon: "🍬",
     seoTitle: "Cannabis Edibles Toronto — Gummies, Chocolates & Drinks",
     seoIntro: "Browse the full cannabis edibles menu at Bloor Cannabis Dispensary on Toronto St, Toronto. We carry THC gummies, chocolates, drinks, and more from top Canadian brands.",
-    seoDescription: "Looking for cannabis edibles in Toronto? Bloor Cannabis Dispensary stocks a wide range of THC-infused gummies, chocolates, beverages, and baked goods. Our edibles range from micro-dose options for beginners to high-potency products for experienced consumers. All products are lab-tested and sourced from licensed Canadian producers. Visit us at 993 Bloor St W — open daily 24 hours.",
+    seoDescription: "Looking for cannabis edibles in Toronto? Bloor Cannabis Dispensary stocks a wide range of THC-infused gummies, chocolates, beverages, and baked goods. Our edibles range from micro-dose options for beginners to high-potency products for experienced consumers. All products are lab-tested and sourced from licensed Canadian producers. Visit us at 993 Bloor St W — we are Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM.",
     faqs: [
       { q: "What cannabis edibles do you carry?", a: "We stock THC gummies, chocolates, beverages, capsules, and baked goods from top Canadian brands. Potencies range from 10mg to 1000mg+ THC." },
       { q: "How long do edibles take to kick in?", a: "Cannabis edibles typically take 30-90 minutes to take effect. Start with a low dose (5-10mg) and wait at least 2 hours before consuming more." },
-      { q: "Can I buy edibles at Bloor Cannabis Dispensary?", a: "Yes! Visit us at 993 Bloor St W, Toronto. We're open daily 24 hours with a full edibles selection in store." },
+      { q: "Can I buy edibles at Bloor Cannabis Dispensary?", a: "Yes! Visit us at 993 Bloor St W, Toronto. We're open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM with a full edibles selection in store." },
     ],
   },
   "VAPE PENS": {
@@ -206,7 +206,7 @@ export const CATEGORY_CONFIG: Record<string, CategoryInfo> = {
     banner: "/banners/04_Pre_Rolls.webp", name: "Pre-Rolls", slug: "prerolls", color: "#22c55e", icon: "🚬",
     seoTitle: "Pre-Rolls Toronto — Ready-to-Smoke Cannabis Joints",
     seoIntro: "Pre-rolled cannabis joints at Bloor Cannabis Dispensary, Toronto. Singles, multi-packs, and infused pre-rolls — ready to light up.",
-    seoDescription: "Skip the rolling and grab a pre-roll from Bloor Cannabis Dispensary in Toronto. We carry singles, multi-packs, and infused pre-rolls from premium flower. Whether you want a quick smoke or a party pack, our pre-roll selection has something for everyone. Visit us at 993 Bloor St W — open daily 24 hours.",
+    seoDescription: "Skip the rolling and grab a pre-roll from Bloor Cannabis Dispensary in Toronto. We carry singles, multi-packs, and infused pre-rolls from premium flower. Whether you want a quick smoke or a party pack, our pre-roll selection has something for everyone. Visit us at 993 Bloor St W — we are Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM.",
     faqs: [
       { q: "What pre-rolls do you carry?", a: "We stock singles, 3-packs, and multi-packs in various strains and potencies, including infused pre-rolls with concentrates." },
       { q: "Are your pre-rolls made with quality flower?", a: "Yes! Our pre-rolls are filled with ground flower from our regular menu tiers — not shake or trim." },
@@ -227,11 +227,11 @@ export const CATEGORY_CONFIG: Record<string, CategoryInfo> = {
     name: "Cigarettes", slug: "cigarettes", color: "#78716c", icon: "🏷️",
     seoTitle: "Native Cigarettes Toronto — Discount Tobacco at Bloor Cannabis Dispensary",
     seoIntro: "Discount native cigarettes at Bloor Cannabis Dispensary, Toronto. Premium and value brands at the best prices on Toronto St.",
-    seoDescription: "Bloor Cannabis Dispensary is your go-to source for affordable native cigarettes in Toronto. We carry a wide selection of premium and value tobacco brands at competitive prices. Located at 993 Bloor St W in the heart of ByWard Market, we're open daily 24 hours. Stop by for the best cigarette prices in the neighbourhood.",
+    seoDescription: "Bloor Cannabis Dispensary is your go-to source for affordable native cigarettes in Toronto. We carry a wide selection of premium and value tobacco brands at competitive prices. Located at 993 Bloor St W in the heart of 993 Bloor St W & Nearby Expressway, we're Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM.",
     faqs: [
       { q: "Do you sell cigarettes at Bloor Cannabis Dispensary?", a: "Yes! We carry a wide selection of native cigarette brands at competitive prices." },
       { q: "What cigarette brands do you carry?", a: "We stock a variety of premium and value native cigarette brands. Visit us to see our full in-store selection." },
-      { q: "Are your cigarette prices competitive?", a: "Absolutely. We offer some of the best cigarette prices in the ByWard Market area of Toronto." },
+      { q: "Are your cigarette prices competitive?", a: "Absolutely. We offer some of the best cigarette prices in the 993 Bloor St W & Nearby Expressway area of Toronto." },
     ],
   },
   "MAGIC & OTHERS": {

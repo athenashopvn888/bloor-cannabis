@@ -128,7 +128,7 @@ export default async function ItemsCategoryPage({
           <div className={styles.visitCta}>
             <h3 className={styles.visitTitle}>Visit Bloor Cannabis Dispensary</h3>
             <p className={styles.visitText}>
-              993 Bloor St W, Toronto, ON M6H 1M1 · Open 24 Hours
+              993 Bloor St W, Toronto, ON M6H 1M1 · Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM
             </p>
             <a
               href="https://bloorcanabisdispensary.com/"
