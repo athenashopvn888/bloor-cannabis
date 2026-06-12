@@ -3,7 +3,7 @@ import "./globals.css";
 import AgeGate from "./components/AgeGate";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bloorcanabisdispensary.com"),
+  metadataBase: new URL("https://bloorcannabisdispensary.com"),
   title: {
     default: "Bloor Cannabis Dispensary — Premium Cannabis Dispensary, Toronto",
     template: "%s | Bloor Cannabis Dispensary",
@@ -29,14 +29,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_CA",
-    url: "https://bloorcanabisdispensary.com",
+    url: "https://bloorcannabisdispensary.com",
     siteName: "Bloor Cannabis Dispensary",
     title: "Bloor Cannabis Dispensary — Premium Toronto Cannabis Dispensary",
     description:
       "200+ strains from $3/g. Exotic to Budget. Toronto's uplifting dispensary at 993 Bloor St W. Open Mon-Thu: 11 AM - 11 PM, Fri-Sat: 11 AM - 3 AM, Sun: 11 AM - 11 PM.",
     images: [
       {
-        url: "https://bloorcanabisdispensary.com/wp-content/uploads/2026/04/46Oi5.jpg",
+        url: "https://bloorcannabisdispensary.com/wp-content/uploads/2026/04/46Oi5.jpg",
         width: 1200,
         height: 630,
         alt: "Bloor Cannabis Dispensary — Premium Cannabis Dispensary Toronto",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bloor Cannabis Dispensary — Toronto's Uplifting Dispensary",
     description: "200+ strains from $3/g. Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM at 993 Bloor St W, Toronto.",
-    images: ["https://bloorcanabisdispensary.com/wp-content/uploads/2026/04/46Oi5.jpg"],
+    images: ["https://bloorcannabisdispensary.com/wp-content/uploads/2026/04/46Oi5.jpg"],
   },
   robots: {
     index: true,
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://bloorcanabisdispensary.com",
+    canonical: "https://bloorcannabisdispensary.com",
   },
   verification: {
     // google: "your-google-verification-code",
@@ -73,12 +73,12 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Store",
   additionalType: "https://schema.org/Store",
-  "@id": "https://bloorcanabisdispensary.com",
+  "@id": "https://bloorcannabisdispensary.com",
   name: "Bloor Cannabis Dispensary",
   description: "Cannabis dispensary at 993 Bloor St W in Toronto, ON. Shop exotic, premium, AAA+, AA, and budget flower tiers plus edibles, prerolls, and vapes. Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM.",
-  url: "https://bloorcanabisdispensary.com",
+  url: "https://bloorcannabisdispensary.com",
   telephone: "+14372239353",
-  image: "https://bloorcanabisdispensary.com/wp-content/uploads/2026/04/7Clmh.jpg",
+  image: "https://bloorcannabisdispensary.com/wp-content/uploads/2026/04/7Clmh.jpg",
   priceRange: "$3 - $12/g",
   address: {
     "@type": "PostalAddress",
@@ -117,10 +117,10 @@ const jsonLd = {
   }
 ],
   sameAs: [
-    "https://bloorcanabisdispensary.com/",
-    "https://bloorcanabisdispensary.com/",
+    "https://bloorcannabisdispensary.com/",
+    "https://bloorcannabisdispensary.com/",
   ],
-  hasMap: "https://bloorcanabisdispensary.com/",
+  hasMap: "https://bloorcannabisdispensary.com/",
   areaServed: {
     "@type": "City",
     name: "Toronto",
@@ -154,6 +154,17 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TTEQ4M34CS"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-TTEQ4M34CS');
+            `
+          }}
         />
       </head>
       <body>
