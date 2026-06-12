@@ -26,7 +26,7 @@ const TIER_CROWN: Record<string,string> = {
   EXOTIC:"👑", PREMIUM:"👑", "AAA+":"👑", AA:"🏅", BUDGET:"💰", OZ:"🎯"
 };
 const TIER_UNIT: Record<string,string> = {
-  EXOTIC:"$10-$12/g", PREMIUM:"$7-$10/g", "AAA+":"$5-$6/g", AA:"$4/g", BUDGET:"$3/g"
+  EXOTIC:"$20/G", PREMIUM:"$15/G", "AAA+":"$10/G", AA:"$4/g", BUDGET:"$3/g"
 };
 const TIER_DEAL: Record<string,string> = {
   EXOTIC:"Buy 3g Get 3 FREE", PREMIUM:"Buy 3g Get 3 FREE",
@@ -675,7 +675,7 @@ const TICKER_SLIDES = [
   "200+ Strains In Stock",
   "Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM",
   "ALL SALES ARE FINAL",
-  "🎮 Play Games at bloorcanabisdispensary.com/games",
+  "🎮 Play Games at bloorcannabisdispensary.com/games",
 ];
 
 function VerticalTicker() {
