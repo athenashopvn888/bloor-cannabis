@@ -29,7 +29,7 @@ export async function generateMetadata({
     title: `${item.name} | ${item.category} | Bloor Cannabis Dispensary Toronto`,
     description: itemData.metaDescription,
     alternates: {
-      canonical: `https://bloorcanabisdispensary.com/item/${slug}`,
+      canonical: `https://bloorcannabisdispensary.com/item/${slug}`,
     },
     openGraph: {
       title: `${item.name} | Bloor Cannabis Dispensary`,
@@ -40,25 +40,45 @@ export async function generateMetadata({
 }
 
 /* -- JSON-LD Structured Data -- */
+function cleanSku(value: string) {
+  return String(value || "")
+    .trim()
+    .toUpperCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^A-Z0-9_-]/g, "");
+}
+
 function getJsonLd(item: ItemProduct) {
   const itemData = getItemData(item.category, item.name);
   const priceNum = item.price ? parseFloat(item.price.replace('$', '')) : 0;
+
+  const offers: any = {
+    "@type": "Offer",
+    url: `https://bloorcannabisdispensary.com/item/${item.slug}`,
+    priceCurrency: "CAD",
+    availability: "https://schema.org/InStock",
+    itemCondition: "https://schema.org/NewCondition",
+    seller: { "@type": "Organization", name: "Bloor Cannabis Dispensary" },
+    hasMerchantReturnPolicy: {
+      "@type": "MerchantReturnPolicy",
+      applicableCountry: "CA",
+      returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted"
+    }
+  };
+
+  if (priceNum) {
+    offers.price = priceNum;
+  }
 
   return {
     "@context": "https://schema.org",
     "@type": "Product",
     name: item.name,
-    image: item.image,
+    image: item.image ? [item.image.startsWith('http') ? item.image : `https://bloorcannabisdispensary.com${item.image.startsWith('/') ? '' : '/'}${item.image}`] : undefined,
     description: itemData.description,
     brand: { "@type": "Brand", name: "Bloor Cannabis Dispensary" },
-    sku: item.sku,
-    offers: {
-      "@type": "Offer",
-      price: priceNum || 0,
-      priceCurrency: "CAD",
-      availability: "https://schema.org/InStock",
-      seller: { "@type": "Organization", name: "Bloor Cannabis Dispensary" },
-    },
+    sku: cleanSku(item.sku || item.slug),
+    offers,
   };
 }
 
@@ -73,19 +93,19 @@ function getBreadcrumbJsonLd(item: ItemProduct) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://bloorcanabisdispensary.com"
+        "item": "https://bloorcannabisdispensary.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": item.category,
-        "item": `https://bloorcanabisdispensary.com/items/${catSlug}`
+        "item": `https://bloorcannabisdispensary.com/items/${catSlug}`
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": item.name,
-        "item": `https://bloorcanabisdispensary.com/item/${item.slug}`
+        "item": `https://bloorcannabisdispensary.com/item/${item.slug}`
       }
     ]
   };

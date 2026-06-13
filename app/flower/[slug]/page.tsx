@@ -31,7 +31,7 @@ export async function generateMetadata({
     title: `${flower.name} | ${tierName} ${flower.type === "indica" ? "Indica" : flower.type === "sativa" ? "Sativa" : "Hybrid"} | THC ${flower.thc} | Bloor Cannabis Dispensary Toronto`,
     description: strainData.metaDescription,
     alternates: {
-      canonical: `https://bloorcanabisdispensary.com/flower/${slug}`,
+      canonical: `https://bloorcannabisdispensary.com/flower/${slug}`,
     },
     openGraph: {
       title: `${flower.name} | Bloor Cannabis Dispensary`,
@@ -42,6 +42,14 @@ export async function generateMetadata({
 }
 
 /* -- JSON-LD Structured Data -- */
+function cleanSku(value: string) {
+  return String(value || "")
+    .trim()
+    .toUpperCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^A-Z0-9_-]/g, "");
+}
+
 function getJsonLd(flower: FlowerProduct) {
   const lowestPrice = [flower.price3g, flower.price5g, flower.price14g, flower.price28g]
     .filter((p): p is PricePoint => p !== null)
@@ -50,21 +58,33 @@ function getJsonLd(flower: FlowerProduct) {
 
   const strainData = getStrainData(flower.name, flower.type, flower.tier, flower.thc);
 
+  const offers: any = {
+    "@type": "Offer",
+    url: `https://bloorcannabisdispensary.com/flower/${flower.slug}`,
+    priceCurrency: "CAD",
+    availability: "https://schema.org/InStock",
+    itemCondition: "https://schema.org/NewCondition",
+    seller: { "@type": "Organization", name: "Bloor Cannabis Dispensary" },
+    hasMerchantReturnPolicy: {
+      "@type": "MerchantReturnPolicy",
+      applicableCountry: "CA",
+      returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted"
+    }
+  };
+
+  if (lowestPrice !== undefined && lowestPrice !== null) {
+    offers.price = lowestPrice;
+  }
+
   return {
     "@context": "https://schema.org",
     "@type": "Product",
     name: flower.name,
-    image: flower.image,
+    image: flower.image ? [flower.image.startsWith('http') ? flower.image : `https://bloorcannabisdispensary.com${flower.image.startsWith('/') ? '' : '/'}${flower.image}`] : undefined,
     description: strainData.description,
     brand: { "@type": "Brand", name: "Bloor Cannabis Dispensary" },
-    sku: flower.sku,
-    offers: {
-      "@type": "Offer",
-      price: lowestPrice || 0,
-      priceCurrency: "CAD",
-      availability: "https://schema.org/InStock",
-      seller: { "@type": "Organization", name: "Bloor Cannabis Dispensary" },
-    },
+    sku: cleanSku(flower.sku || flower.slug),
+    offers,
   };
 }
 
@@ -81,19 +101,19 @@ function getBreadcrumbJsonLd(flower: FlowerProduct) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://bloorcanabisdispensary.com"
+        "item": "https://bloorcannabisdispensary.com"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": tierName,
-        "item": `https://bloorcanabisdispensary.com/${tierSlug}`
+        "item": `https://bloorcannabisdispensary.com/${tierSlug}`
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": flower.name,
-        "item": `https://bloorcanabisdispensary.com/flower/${flower.slug}`
+        "item": `https://bloorcannabisdispensary.com/flower/${flower.slug}`
       }
     ]
   };
