@@ -192,7 +192,7 @@ export default function BlogContent() {
           </div>
           <div className={styles.reviewsCta}>
             <a
-              href="https://bloorcanabisdispensary.com/"
+              href="https://bloorcannabisdispensary.com/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.reviewsBtn}

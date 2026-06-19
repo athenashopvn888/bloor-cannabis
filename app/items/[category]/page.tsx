@@ -34,7 +34,7 @@ export async function generateMetadata({
     title: catInfo.config.seoTitle || `${catInfo.config.name} — ${items.length} Products`,
     description: catInfo.config.seoIntro || `Shop ${items.length} ${catInfo.config.name.toLowerCase()} at Bloor Cannabis Dispensary.`,
     alternates: {
-      canonical: `https://bloorcanabisdispensary.com/items/${catSlug}`,
+      canonical: `https://bloorcannabisdispensary.com/items/${catSlug}`,
     },
   };
 }
@@ -131,7 +131,7 @@ export default async function ItemsCategoryPage({
               993 Bloor St W, Toronto, ON M6H 1M1 · Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM
             </p>
             <a
-              href="https://bloorcanabisdispensary.com/"
+              href="https://bloorcannabisdispensary.com/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.visitBtn}

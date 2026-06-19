@@ -28,7 +28,7 @@ export async function generateMetadata({
     title: page.title,
     description: page.metaDescription,
     alternates: {
-      canonical: `https://bloorcanabisdispensary.com/info/${slug}`,
+      canonical: `https://bloorcannabisdispensary.com/info/${slug}`,
     },
   };
 }
@@ -123,7 +123,7 @@ export default async function SeoLandingPage({
             </div>
             <div className={styles.visitBtns}>
               <a
-                href="https://bloorcanabisdispensary.com/"
+                href="https://bloorcannabisdispensary.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.visitBtn}

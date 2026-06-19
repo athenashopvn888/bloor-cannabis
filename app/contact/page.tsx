@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Visit Bloor Cannabis Dispensary at 993 Bloor St W, Toronto, ON M6H 1M1. We are open Monday to Thursday and Sunday from 11:00 AM to 11:00 PM, and Friday to Saturday from 11:00 AM to 03:00 AM. Walk-ins welcome.",
   alternates: {
-    canonical: "https://bloorcanabisdispensary.com/contact",
+    canonical: "https://bloorcannabisdispensary.com/contact",
   },
   openGraph: {
     title: "Contact Bloor Cannabis Dispensary — Toronto Dispensary",
@@ -45,7 +45,7 @@ export default function ContactPage() {
                 <span className={styles.infoMuted}>993 Bloor St W & Nearby Expressway</span>
               </p>
               <a
-                href="https://bloorcanabisdispensary.com/"
+                href="https://bloorcannabisdispensary.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.infoBtn}

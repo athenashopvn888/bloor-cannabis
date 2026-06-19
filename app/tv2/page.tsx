@@ -139,7 +139,7 @@ const TICKER_SLIDES = [
   "Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM",
   "Pre-Rolls · Edibles · Vapes · Concentrates",
   "ALL SALES ARE FINAL",
-  "🎮 Play Games at bloorcanabisdispensary.com/games",
+  "🎮 Play Games at bloorcannabisdispensary.com/games",
 ];
 
 function VerticalTicker() {

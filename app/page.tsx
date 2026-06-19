@@ -368,7 +368,7 @@ export default function HomePage() {
 
           <div className={styles.reviewCtaRow}>
             <a
-              href="https://bloorcanabisdispensary.com/"
+              href="https://bloorcannabisdispensary.com/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.reviewsWrite}
@@ -407,7 +407,7 @@ export default function HomePage() {
                 Toronto, ON M6H 1M1
                 <br />
                 <a
-                  href="https://bloorcanabisdispensary.com/"
+                  href="https://bloorcannabisdispensary.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.storeLink}

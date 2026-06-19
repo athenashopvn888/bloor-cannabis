@@ -16,7 +16,7 @@ export async function generateMetadata({
     title: `${title} — Blog | Bloor Cannabis Dispensary`,
     description: `Read about ${title.toLowerCase()} and other cannabis guides from Bloor Cannabis Dispensary in Toronto.`,
     alternates: {
-      canonical: `https://bloorcanabisdispensary.com/blog/${slug}`,
+      canonical: `https://bloorcannabisdispensary.com/blog/${slug}`,
     },
   };
 }

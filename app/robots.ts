@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/"],
     },
-    sitemap: "https://bloorcanabisdispensary.com/sitemap.xml",
+    sitemap: "https://bloorcannabisdispensary.com/sitemap.xml",
   };
 }
