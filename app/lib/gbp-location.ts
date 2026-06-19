@@ -24,7 +24,7 @@ export const gbpLocation = {
     "Accessories"
   ],
   menuUrl: "/",
-  directionsUrl: "https://bloorcannabisdispensary.com/",
+  directionsUrl: "https://www.google.com/maps/search/?api=1&query=993%20Bloor%20St%20W%2C%20Toronto%2C%20ON%20M6H%201M1",
   mapEmbedUrl: "https://maps.google.com/maps?q=Bloor%20Cannabis%20Dispensary%20993%20Bloor%20St%20W%2C%20Toronto%2C%20ON%20M6H%201M1&t=&z=15&ie=UTF8&iwloc=&output=embed",
   latitude: "43.6609278",
   longitude: "-79.4299091",
