@@ -24,8 +24,8 @@ export const gbpLocation = {
     "Accessories"
   ],
   menuUrl: "/",
-  directionsUrl: "https://www.google.com/maps/search/?api=1&query=993%20Bloor%20St%20W%2C%20Toronto%2C%20ON%20M6H%201M1",
-  mapEmbedUrl: "https://maps.google.com/maps?q=Bloor%20Cannabis%20Dispensary%20993%20Bloor%20St%20W%2C%20Toronto%2C%20ON%20M6H%201M1&t=&z=15&ie=UTF8&iwloc=&output=embed",
+  directionsUrl: "",
+  mapEmbedUrl: "",
   latitude: "43.6609278",
   longitude: "-79.4299091",
   hours: ["Mon-Thu: 11:00 AM - 11:00 PM", "Fri-Sat: 11:00 AM - 03:00 AM", "Sun: 11:00 AM - 11:00 PM"],

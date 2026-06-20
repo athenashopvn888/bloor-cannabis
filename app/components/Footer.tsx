@@ -17,20 +17,6 @@ export default function Footer() {
               Open: Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM.
             </p>
             <div className={styles.buttons}>
-              <a
-                href="tel:+14372239353"
-                className={styles.btnPrimary}
-              >
-                Call Now
-              </a>
-              <a
-                href="https://bloorcannabisdispensary.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.btnSecondary}
-              >
-                Get Directions
-              </a>
             </div>
           </div>
 
