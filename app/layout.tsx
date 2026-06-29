@@ -5,11 +5,11 @@ import AgeGate from "./components/AgeGate";
 export const metadata: Metadata = {
   metadataBase: new URL("https://bloorcannabisdispensary.com"),
   title: {
-    default: "Bloor Cannabis Dispensary — Premium Cannabis Dispensary, Toronto",
+    default: "Bloor Cannabis Dispensary | Toronto Cannabis Store",
     template: "%s | Bloor Cannabis Dispensary",
   },
   description:
-    "Shop 200+ premium cannabis strains at Bloor Cannabis Dispensary. Exotic, Premium, AAA+, AA & Budget flower from $3/g. Toronto's uplifting dispensary at 993 Bloor St W. Open Mon-Thu: 11 AM - 11 PM, Fri-Sat: 11 AM - 3 AM, Sun: 11 AM - 11 PM.",
+    "Bloor Cannabis Dispensary is a Toronto cannabis store on Bloor St W with adult 19+ store info and category browsing for flower, pre-rolls, vapes, edibles, concentrates, and accessories. Open Mon-Thu 11 AM-11 PM, Fri-Sat 11 AM-3 AM, Sun 11 AM-11 PM.",
   keywords: [
     "cannabis dispensary Toronto",
     "weed store Toronto",
