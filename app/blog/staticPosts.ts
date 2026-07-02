@@ -25,7 +25,7 @@ export const STORE_BLOG_CONFIG = {
   storeCode: "BCD01",
   storeName: "Bloor Cannabis Dispensary",
   city: "Toronto",
-  domain: "bloorcannabisdispensary.com",
+  domain: "www.bloorcannabisdispensary.com",
   storePath: "/weed-dispensary-toronto",
 };
 
