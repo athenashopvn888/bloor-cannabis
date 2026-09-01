@@ -18,7 +18,8 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       { source: "/shop", destination: "/menu", permanent: true },
-      { source: "/shop/:path*", destination: "/menu", permanent: true },
+      { source: "/blog", destination: "/", permanent: true },
+      { source: "/blog/:path*", destination: "/", permanent: true },
       { source: "/menu/flower", destination: "/menu", permanent: true },
       { source: "/menu/pre-rolls", destination: "/items/prerolls", permanent: true },
       { source: "/menu/edibles", destination: "/items/edibles", permanent: true },
