@@ -3,7 +3,7 @@ import { TIER_CONFIG, CATEGORY_CONFIG, allFlowers, allItems } from "./lib/produc
 import { SEO_PAGES } from "./lib/seoPages";
 import { RESOURCE_PAGES } from "./resources/resourceData";
 
-const BASE = "https://www.bloorcannabisdispensary.com";
+const BASE = "https://bloorcannabisdispensary.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
@@ -66,5 +66,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: page.slug ? 0.6 : 0.7,
   }));
 
-  return [...staticPages, ...tierPages, ...itemPages, ...flowerPages, ...itemDetailPages, ...resourcePages, ...seoPages];
+  const pages = [...staticPages, ...tierPages, ...itemPages, ...flowerPages, ...itemDetailPages, ...resourcePages, ...seoPages];
+  return Array.from(new Map(pages.map((page) => [page.url, page])).values());
 }
