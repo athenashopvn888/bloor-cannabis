@@ -6,6 +6,7 @@ import Link from "next/link";
 import styles from "./Navbar.module.css";
 
 const ALL_LINKS = [
+  { href: "/menu", label: "Menu" },
   { href: "/careers/budtender", label: "Join Team" },
   { href: "/exotic", label: "Exotic" },
   { href: "/premium", label: "Premium" },
@@ -21,6 +22,8 @@ const ALL_LINKS = [
   { href: "/items/cigarettes", label: "Cigarettes" },
   { href: "/items/add-ons", label: "Accessories" },
   { href: "/resources", label: "Resources" },
+  { href: "/blog", label: "Guides" },
+  { href: "/contact", label: "Contact" },
   { href: "/delivery", label: "🚗 Delivery" },
   { href: "/faq", label: "FAQ" },
   { href: "/games", label: "🎮" },
