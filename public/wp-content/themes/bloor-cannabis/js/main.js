@@ -153,7 +153,7 @@
           msg.hidden = false;
           if (j.success) setTimeout(function () { modal.hidden = true; }, 2600);
         })
-        .catch(function () { msg.textContent = 'Network error — call us at (437) 223-9353.'; msg.hidden = false; });
+        .catch(function () { msg.textContent = 'Network error — call us at (437) 780-6808.'; msg.hidden = false; });
     });
   }
 })();

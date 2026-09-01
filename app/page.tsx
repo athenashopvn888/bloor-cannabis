@@ -79,7 +79,7 @@ const LOCAL_FAQS = [
   },
   {
     q: "Where is Bloor Cannabis Dispensary located?",
-    a: "We are located at 993 Bloor St W, Toronto, ON M6H 1M1. Visit us in person or call us at (437) 223-9353. Free evening street parking is available.",
+    a: "We are located at 993 Bloor St W, Toronto, ON M6H 1M1. Visit us in person or call us at (437) 780-6808. Free evening street parking is available.",
   },
   {
     q: "What is the cheapest weed at Bloor Cannabis Dispensary?",

@@ -77,7 +77,7 @@ const jsonLd = {
   name: "Bloor Cannabis Dispensary",
   description: "Cannabis dispensary at 993 Bloor St W in Toronto, ON. Shop exotic, premium, AAA+, AA, and budget flower tiers plus edibles, prerolls, and vapes. Mon-Thu: 11:00 AM - 11:00 PM, Fri-Sat: 11:00 AM - 03:00 AM, Sun: 11:00 AM - 11:00 PM.",
   url: "https://bloorcannabisdispensary.com",
-  telephone: "+14372239353",
+  telephone: "+14377806808",
   image: "https://bloorcannabisdispensary.com/wp-content/uploads/2026/04/7Clmh.jpg",
   priceRange: "$3 - $12/g",
   address: {
