@@ -31,10 +31,10 @@ export async function generateMetadata({
   const items = getItemsByCategory(catInfo.key);
 
   return {
-    title: catInfo.config.seoTitle || `${catInfo.config.name} — ${items.length} Products`,
+    title: { absolute: catInfo.config.seoTitle || `${catInfo.config.name} — ${items.length} Products` },
     description: catInfo.config.seoIntro || `Shop ${items.length} ${catInfo.config.name.toLowerCase()} at Bloor Cannabis Dispensary.`,
     alternates: {
-      canonical: `https://bloorcannabisdispensary.com/items/${catSlug}`,
+      canonical: `https://www.bloorcannabisdispensary.com/items/${catSlug}`,
     },
   };
 }
@@ -85,6 +85,12 @@ export default async function ItemsCategoryPage({
           </div>
         )}
       </section>
+
+      {(catInfo.key === "VAPE PENS" || catInfo.key === "VAPE DISPOSABLE") && (
+        <h1 className={styles.heroTitle} style={{ textAlign: "center", margin: "0 24px 24px" }}>
+          {config.name}
+        </h1>
+      )}
 
       {/* Product Grid */}
       <section className={styles.products}>

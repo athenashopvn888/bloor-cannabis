@@ -58,9 +58,9 @@ export const RESOURCE_PAGES: ResourcePage[] = [
         text: "Choose between flower, pre-rolls, vapes, edibles, concentrates, accessories, and cigarettes.",
       },
       {
-        title: "Flower Tier Guide",
-        href: "/resources/flower-tier-guide",
-        text: "Compare Exotic, Premium, AAA+, AA, and Budget before picking a strain.",
+        title: "Weed & Flower Guide",
+        href: "/resources/weed-flower-guide",
+        text: "Compare Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed.",
       },
       {
         title: "Dufferin Transit Guide",
@@ -193,9 +193,9 @@ export const RESOURCE_PAGES: ResourcePage[] = [
     banner: "/banners/edibles_prerolls_more_banner.webp",
     cards: [
       {
-        title: "Flower Tier Guide",
-        href: "/resources/flower-tier-guide",
-        text: "Compare shelf lanes before choosing individual flower.",
+        title: "Weed & Flower Guide",
+        href: "/resources/weed-flower-guide",
+        text: "Compare the five Weed flower collections before choosing individual flower.",
       },
       {
         title: "Pre-Rolls",
@@ -219,10 +219,10 @@ export const RESOURCE_PAGES: ResourcePage[] = [
         body:
           "Bloorcourt shoppers are often moving quickly between transit, errands, food, nightlife, and home. The resource hub keeps the decision organized: category first, product second, visit details last.",
         bullets: [
-          "Flower: compare Exotic, Premium, AAA+, AA, and Budget.",
+          "Flower: compare Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed.",
           "Quick stop: pre-rolls, vapes, accessories, or cigarettes.",
           "Format-first: edibles, concentrates, THC vape, and nicotine vape.",
-          "Value-first: Budget, AA, and bundle-aware flower tiers.",
+          "Value-first: Budget Weed, AA Weed and the current flower collections.",
         ],
       },
       {
@@ -233,58 +233,57 @@ export const RESOURCE_PAGES: ResourcePage[] = [
     ],
   },
   {
-    slug: "flower-tier-guide",
-    title: "Bloor Cannabis Flower Tier Guide",
-    seoTitle: "Bloor Cannabis Flower Tier Guide | Exotic Premium AAA AA Budget",
+    slug: "weed-flower-guide",
+    title: "Bloor Cannabis Dispensary Weed & Flower Guide",
+    seoTitle: "Weed & Cannabis Flower Guide Toronto | Bloor Cannabis Dispensary",
     description:
-      "Compare Bloor Cannabis Dispensary flower tiers including Exotic, Premium, AAA+, AA, and Budget menu lanes.",
+      "Explore Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed from Bloor Cannabis Dispensary in one Toronto flower guide.",
     eyebrow: "Flower Guide",
     intro:
-      "Bloor Cannabis Dispensary flower shopping is easier when you use the shelf map first. Open the tier that matches the visit, then compare strains inside that lane.",
+      "Bloor Cannabis Dispensary brings five Weed flower collections together for shoppers comparing Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed. Explore the collections that interest you and use the product information presented while you browse.",
     banner: "/banners/premium_banner.webp",
     cards: [
       {
-        title: "Exotic",
-        href: "/exotic",
-        text: "Start here for the Exotic shelf and its current strain cards.",
+        title: "Explore Exotic Weed",
+        href: "/exotic-weed",
+        text: "Open the Exotic Weed collection.",
       },
       {
-        title: "Premium",
-        href: "/premium",
-        text: "Open the Premium shelf for a separate set of current strain cards.",
+        title: "Explore Premium Weed",
+        href: "/premium-weed",
+        text: "Open the Premium Weed collection.",
       },
       {
-        title: "AAA+",
-        href: "/aaa",
-        text: "A practical middle shelf before AA and Budget.",
+        title: "Explore AAA+ Weed",
+        href: "/aaa-weed",
+        text: "Open the AAA+ Weed collection.",
       },
       {
-        title: "AA",
-        href: "/aa",
-        text: "A daily-driver lane for simpler value decisions.",
+        title: "Explore AA Weed",
+        href: "/aa-weed",
+        text: "Open the AA Weed collection.",
       },
       {
-        title: "Budget",
-        href: "/budget",
-        text: "Use this when the Bloor Street stop is price-first.",
+        title: "Explore Budget Weed",
+        href: "/budget-weed",
+        text: "Open the Budget Weed collection.",
+      },
+      {
+        title: "Explore Bloor Cannabis Dispensary Weed in Toronto",
+        href: "/weed-dispensary-toronto",
+        text: "Open the existing Toronto Weed store guide for broader store information.",
       },
     ],
     sections: [
       {
-        heading: "Use The Tier As The Filter",
+        heading: "Compare the five Weed flower collections",
         body:
-          "A strain name can be tempting, but the shelf lane does the first pass. Exotic and Premium aim higher, AAA+ sits in the middle, and AA plus Budget keep the value side clean.",
+          "Move between Exotic Weed, Premium Weed, AAA+ Weed, AA Weed and Budget Weed, then review the product information presented in the collection that interests you.",
       },
       {
-        heading: "Compare Inside One Shelf At A Time",
+        heading: "Continue with the Toronto Weed store guide",
         body:
-          "Once a shelf fits the visit, compare the current cards inside that tier. This keeps Exotic, Premium, AAA+, AA, and Budget from turning into one long mixed list.",
-        bullets: [
-          "Exotic and Premium stay in separate high-shelf lanes.",
-          "AAA+ provides a middle menu lane.",
-          "AA and Budget keep value-first browsing separate.",
-          "Use the current tier cards for the details shown today.",
-        ],
+          "Use the existing Toronto Weed store guide for broader Bloor Cannabis Dispensary information.",
       },
     ],
   },
