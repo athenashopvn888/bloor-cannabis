@@ -31,14 +31,14 @@ export async function generateMetadata({
   const seo = TIER_SEO[tierInfo.key];
 
   return {
-    title: seo?.seoTitle || `${tierInfo.config.name} Cannabis Flower — ${flowers.length} Strains`,
+    title: { absolute: seo?.seoTitle || `${tierInfo.config.name} Cannabis Flower — ${flowers.length} Strains` },
     description: seo?.seoIntro || `Shop ${flowers.length} ${tierInfo.config.name.toLowerCase()} cannabis strains at Bloor Cannabis Dispensary.`,
     alternates: {
-      canonical: `https://bloorcannabisdispensary.com/${tierSlug}`,
+      canonical: `https://www.bloorcannabisdispensary.com/${tierSlug}`,
     },
     openGraph: {
-      title: `${tierInfo.config.name} Flower | Bloor Cannabis Dispensary`,
-      description: `${flowers.length} curated ${tierInfo.config.name.toLowerCase()} strains in stock now. From $${tierInfo.config.unitPrice}/g.`,
+      title: seo?.seoTitle || `${tierInfo.config.name} Cannabis Flower`,
+      description: seo?.seoIntro || `Explore the ${tierInfo.config.name} collection at Bloor Cannabis Dispensary.`,
     },
   };
 }
@@ -75,7 +75,7 @@ export default async function TierPage({
         <section className={styles.bannerSection}>
           <img
             src={config.banner}
-            alt={`${config.name} Cannabis Flower — ${config.tagline}`}
+            alt={`${config.name} cannabis flower at Bloor Cannabis Dispensary`}
             className={styles.bannerImg}
           />
         </section>
