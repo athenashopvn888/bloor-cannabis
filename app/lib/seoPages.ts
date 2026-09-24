@@ -44,7 +44,7 @@ export const SEO_PAGES: SeoPageData[] = [
       },
       {
         heading: "Serving Toronto, Toronto & Mississauga",
-        body: "Bloor Cannabis Dispensary proudly serves customers from across the Greater Toronto Area. Whether you're coming from Weston, Mount Dennis, North Toronto, Etobicoke, Mississauga, Brampton, or downtown Toronto, we welcome you. Call us at (437) 223-9353 or visit us at 993 Bloor St W, Toronto, ON M6H 1M1.",
+        body: "Bloor Cannabis Dispensary proudly serves customers from across the Greater Toronto Area. Whether you're coming from Weston, Mount Dennis, North Toronto, Etobicoke, Mississauga, Brampton, or downtown Toronto, we welcome you. Call us at (437) 780-6808 or visit us at 993 Bloor St W, Toronto, ON M6H 1M1.",
       },
     ],
     faqs: [

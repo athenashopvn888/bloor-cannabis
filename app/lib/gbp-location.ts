@@ -9,8 +9,8 @@ export const gbpLocation = {
   address: "993 Bloor St W, Toronto, ON M6H 1M1",
   streetAddress: "993 Bloor St W",
   postalCode: "M6H 1M1",
-  phone: "(437) 223-9353",
-  phoneIntl: "+14372239353",
+  phone: "(437) 780-6808",
+  phoneIntl: "+14377806808",
   neighborhood: "Bloor Street / West Toronto",
   nearbyAreas: ["Bloor Street", "Dufferin", "Dovercourt", "Bloorcourt", "Christie Pits", "Koreatown", "Ossington", "Bloordale Village"],
   products: [
